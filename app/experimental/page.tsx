@@ -30,9 +30,9 @@ const jsonLd = {
       "@type": "Place",
       address: {
         "@type": "PostalAddress",
-        addressLocality": "Seattle",
-        addressRegion": "WA",
-        addressCountry": "US",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "addressCountry": "US",
       },
     },
     email: "info@cogniflow.ai",
@@ -48,7 +48,7 @@ const jsonLd = {
     name: "Request Early Access",
     target: {
       "@type": "EntryPoint",
-      urlTemplate": "#", // Use the actual URL when available
+      "urlTemplate": "#", // Use the actual URL when available
     },
   },
 };
